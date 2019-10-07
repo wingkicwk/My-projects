@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!--reference: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+        <style >
+            h1,h3,p{
+                color:black;
+                
+            }
+            h1{
+                margin-bottom: 1px;
+                margin-top: 1px;
+                font-size:63px;
+                text-align: center;
+                border-bottom: solid 1px #000;
+                border-top: solid 1px #000;
+            }
+            h3{
+                text-align: center; 
+                font-style: italic;
+            }
+            h3,p{
+                margin-top:1px;
+            }
+
+        </style>
+    <meta charset="utf-8">
+    <title>SPCA Hong Kong</title>
+    <link rel=stylesheet type ="text/css" href="first_style.css" >
+    </head>
+    <body>
+
+            <header>
+                    <a href="homepage.html"><img src="images/spca.png" alt="SPCA logo" class = "logo"> </a> 
+
+                    <nav>
+                       <ul class='ul1'>
+                            <li class='navli'><a href= "homepage.html" class = "link" >Home</a></li>
+                            <li class='navli'><a href="About.html" class = "link">About</a></li>
+                            <li class='navli'><a href="Gallery.html" class = "link">Gallery</a></li>
+                            <li class='navli'><a href="Contact.html" class = "link">Contact</a></li>
+                            <li class='navli'><a href="Donation.html" class = "link" id="donate" >Donate </a></li>
+                        </ul>
+                    </nav>
+            </header>
+ 
+        
+    <div id='containerd'>
+             <div id='dbg'></div> 
+    <div id='word'>
+    <h1>Donate to SPCA</h1>
+    <h3>100% of your money go towards animals in need </h3>
+    <p>
+
+        Please accept our thanks in advance of your willingness to support SPCA HK. The animals in our Shelter deserve a loving home and the efforts of our Low Cost Spay and Neuter Clinic need your support. Help us transition Hong Kong into a "No Kill" community. Your support brings us one step closer to making this happen.
+        <br>
+        Please fill in the below donation form and we would contact you for further donate instruction by email.
+        </p>
+        </div>
+    <div id='donationform'>
+        <form action="https://formspree.io/mnicwk@gmail.com" method="POST" >
+
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Your firstname">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="Your email">
+        <label for="amount">Donation amount</label>
+        <input type="text" id="amount" name="damount" placeholder="Any donation is greatly appreciated">
+        <label for="usage" >Please direct my donation to:</label>
+        <select id="usage" name="usage">
+          <option value="ASP">Animal Sponsorship Programme (ASP)</option>
+          <option value="CCCP">Cat Colony Care Programme (CCCP)</option>
+          <option value="General Donation">General Donation</option>
+          <option value="Cinderella Medical Fund">Cinderella Medical Fund</option>        
+        </select>        
+        <input type="submit" value="Send">
+            </form>
+    </div>   
+    </div>
+<!-- new feature: Form -->
+
+<!--reference:https://www.w3schools.com/css/tryit.asp?filename=trycss_forms 
+                    to struture the form
+              https://stackoverflow.com/questions/17937414/send-email-from-html-form-without-php       to look for the way to be possible to send the form to my email    
+              https://formspree.io/#setup 
+                    to setup-->
+         <footer>
+            Created by: Wingki Chung
+        </footer>
+        
+    </body>
+</html>

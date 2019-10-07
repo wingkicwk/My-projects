@@ -1,0 +1,481 @@
+header{ 
+width: 100%;
+height: 10%;
+min-width: 950px;
+min-height: 50px;
+}
+
+
+
+
+header::after{     /*Reference:reference https://www.youtube.com/watch?v=FEmysQARWFU*/
+    content: '';
+    display:table;
+    clear:both;
+}
+
+.logo {
+    height: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float:left;  /*float here!*/
+
+}
+
+nav {   
+    float:right;  /*float here!*/
+    }
+
+.ul1 {
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+
+
+
+
+.navli{
+    position:relative; /*position here!*/
+    top:20px; 
+    display:inline-block;
+    padding:2px;
+    padding-right: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+   border-right: solid grey 2px; 
+}    
+li:last-child {         /*reference:https://community.adobe.com/t5/Dreamweaver/How-do-I-add-    vertical-lines-between-navigation-labels/td-p/6705009*/
+    border:none;
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:sans-serif;
+}
+
+
+.link:hover{
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 5px
+}
+
+#donate{
+
+    padding:7px;
+    border:solid 1px lightgrey;
+    border-radius: 10px;    /*new feature*/
+ 
+}
+
+#donate:hover{
+    border:1px solid lightblue;
+    box-shadow: 0px 0px 4px ;   
+    /*new feature*/
+    /*reference:https://stackoverflow.com/questions/5670879/css-html-create-a-glowing-border-around-an-input-field*/
+}
+
+
+
+body{
+    margin:0;
+    background:url(images/animalllll.png) no-repeat ;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+#sectionhp{
+    width: 50%;
+    height: 500%;
+    min-width:450px;
+    min-height:80vh;
+    margin-bottom: 10%;
+}
+.main{
+    position:relative;  /*position here!*/
+    left:50px;
+    color:white;   
+}
+             
+#button{
+    text-transform: uppercase; /*new feature*/
+    font-family:sans-serif;
+    position:relative;    /*position here!*/
+    top:30px;
+    left:50px;
+}   
+
+#learnmore{
+    display: inline-block; /*inline block here!*/
+
+}
+
+#hpbutton1{
+    color:white;
+    padding:9px;
+    border-collapse: collapse ;
+    background-color:#157DC6; 
+    border-radius: 5px;
+    text-decoration: none;
+    padding-left: 30px;   
+    padding-right:30px;
+}
+  
+#hpbutton1:hover{
+    border:1px solid deepskyblue; 
+    background-color: transparent;
+    color:deepskyblue
+}
+
+
+#donatenow{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#hpbutton2{
+    padding:9px;
+    color:white;
+    border-collapse: collapse;
+    background-color:darkorange; 
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    text-decoration: none;
+}
+
+#hpbutton2:hover{
+    border:1px solid darkorange; 
+    background-color: transparent;
+    color:darkorange
+
+}
+
+footer{
+        background-color:gray;
+        color:white;
+        clear:both;
+        text-align:center;
+        padding:1px;
+        width: 100%; 
+        
+}
+#divgallery{
+    position:relative;
+    width:85%;
+    height:100%;
+    margin-left:auto; 
+    margin-right:auto ; 
+}
+
+
+#gallerybg1{
+   position:absolute; /*position here*/
+    background-color:#215B99; 
+    opacity:0.4;
+    height:100%; 
+/*reference https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it*/ 
+    width:100%;
+    z-index:-1;
+
+}
+
+#gallerybg2{
+    position:absolute; /*position*/
+    background-color:black;
+    opacity:0.4;
+    height:100%; /*reference https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it */
+    width:100%;
+    z-index:-1;
+}
+
+#galleries{
+    width:100%;
+    padding:2%;
+    
+}
+.gallery{
+    display: inline-block; /*display:inline block element*/
+    background-color: #E8E7E7;
+    height:70%;
+    width:29%; 
+    margin:1.5%;
+    padding:1%;
+}
+
+.gphoto{
+    display:block; /*display:block element*/
+    width:100%;
+}
+
+#gslogan{
+    color:white;
+    width:70%;
+    margin-left:auto; 
+    margin-right:auto ;
+    
+    text-align: center;
+    
+}
+
+.wrapper{
+    position:relative;
+    width:85%;
+    height:100%;
+    margin-left:auto; 
+    margin-right:auto ; 
+}
+
+#aparent{
+    position:relative;
+    margin-top: 4%;
+    width:85%;
+    height:100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#dgdg{
+    width:48%;
+    height:50%;
+    
+    float:right;
+    padding:2%
+}
+
+#ap1{
+    padding:2%;
+    width:50%;
+    min-width: 400px;
+    
+}
+#video{
+    text-align: center;
+    padding:10%;
+    
+    padding-top: 3%;
+    
+}
+
+
+#hand{
+    width:100%;
+    height:100%;
+    
+    
+      
+}
+
+#abg{
+   position:absolute; /*position here*/
+    background-color:#E8E7E7; 
+    opacity:0.4;
+    height:100%; 
+/*reference https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it*/ 
+    width:100%;
+    z-index:-1;
+
+}
+
+
+   
+
+
+.aboutli{
+    font-size: 110%;
+    width:100%;
+    padding:2%;
+    
+   
+}
+
+
+#divc{
+    position:relative;
+    width:100%;
+    height:100%;
+
+}
+
+#cbg{
+    position:absolute; /*position here*/
+    background-color:black; 
+    opacity:0.4;
+    height:100%; 
+/*reference https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it*/ 
+    width:100%;
+    z-index:-1;
+    
+}
+
+#contact{
+    color:#E8E7E7;
+    padding:2%;
+    padding-bottom: 15%;
+    margin-top:4%; 
+}
+
+.icon{
+    width:10%;
+    height:auto;
+    max-width:33px;
+    min-width:20px   
+}
+
+#centermap{
+    width:38%;
+    height:100%;
+    float:right;
+    margin-bottom: 18%;
+        
+}
+
+
+#ins{
+    border-radius: 8px;
+}
+
+table{
+    border-collapse:collapse;
+}
+    
+
+
+
+th, td{
+    height:50px;
+}
+
+table, th, td{
+    margin-top:5%;
+    border: none;
+}
+
+table{
+    width:40%;
+}
+
+tr{
+    border-bottom: solid 1px grey
+}
+
+tbody>tr>:nth-child(1){
+    text-align:left;
+    padding-left:10px;   
+    width:30%;
+} 
+    
+tbody>tr>:nth-child(2){
+    text-align:center;
+
+} 
+   
+
+#containerd{
+    position:relative;
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    padding:2%;
+    margin-bottom:5%;
+}
+
+#dbg{
+    position:absolute; /*position here*/
+    left:1px;
+    background-color:#E8E7E7; 
+    opacity:0.5;
+    height:100%; 
+/*reference https://stackoverflow.com/questions/5135019/css-opacity-only-to-background-color-not-the-text-on-it*/ 
+    width:100%;
+    z-index:-1; 
+
+}
+
+#donationform{
+    background-color: #E8E7E7;
+    padding:2%;
+    border-radius: 5px;
+    margin:2% ;
+    
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+/*Reference:https://www.w3schools.com/css/tryit.asp?filename=trycss_forms*/
+input[type=text], select {
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=email],select{
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #157DC6;
+    color: white;
+    padding: 1%;
+    margin: 1%;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3C6997;
+}
+
+
+#word{
+    padding:2%;
+}
+
+
+
+.al1{
+    display:inline-block;
+    padding:1%;
+    width:45%;
+    margin:2%
+}
+
+#containera{
+    width:100%;
+}
+
+#try{
+    margin:2%;
+    padding-bottom: 7%;
+    border-bottom: solid black 1px;
+    
+}
+body{                                         /*reference:https://stackoverflow.com/questions/27640084/why-is-width-of-page-larger-than-screen-width*/
+        box-sizing: border-box;
+}
+
+
+body *, body *:before, body *:after { box-sizing: inherit; }
+/*reference:https://stackoverflow.com/questions/27640084/why-is-width-of-page-larger-than-screen-width*/
+
+
+video{
+    width:100%;
+    height:100%;
+}
